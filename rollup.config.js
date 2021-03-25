@@ -31,7 +31,7 @@ export default {
   ],
   plugins: [
     nodeResolve(),
-    postcss({ extract: './style.css' }),
+    postcss({ extract: 'src/style.css' }),
     commonjs({
       include: 'node_modules/**',
     }),
